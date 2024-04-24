@@ -110,6 +110,8 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  display: block;
+  max-width: 496px;
   margin: 0 auto 48px;
 
 }
@@ -139,12 +141,13 @@ ul {
 
 }
 .visually-hidden { 
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
+ position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
 
 white-space: nowrap;
 clip-path: inherit(100%);
